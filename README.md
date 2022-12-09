@@ -8,24 +8,34 @@ tool), speedtest-cli (linux tool), inxi(linux tool).
   + For checking the version of python, run following command :- 
     > python3 -version
   + If it is not present then install it by using this command :- 
-    - > sudo apt-get update
-      > sudo apt-get install python3.6
+    > sudo apt-get update
+    > sudo apt-get install python3.6
   + For checking whether pip is present is the system or not, run the following
   command :- 
-    - > pip --version
+    > pip --version
   + If it is not present then install it by using this command :- 
-    - > sudo apt install python3-pip
+    > sudo apt install python3-pip
   + The rest of the above mentioned requirements can be installed by the following
   commands :- 
-    - > sudo apt install inxi
-    - > sudo apt install speedtest-cli
-    - > sudo apt install lm-sensors
-    - > pip install psutil
-    - > sudo pip install psutil
-    - > pip install python-time
-    - > sudo pip install python-time
-    - > pip install keyboard
-    - > sudo pip install keyboard
+    > sudo apt install inxi
+    > sudo apt install speedtest-cli
+    > sudo apt install lm-sensors
+    > pip install psutil
+    > sudo pip install psutil
+    > pip install python-time
+    > sudo pip install python-time
+    > pip install keyboard
+    > sudo pip install keyboard
+* For running of our program, install the zip file and unzip it.
+Open the folder containing the code in the terminal.
+  + For compilation:
+    > g++ resource_monitor.cpp
+  
+  + For execution:
+    > ./a.out
+* While execution of CPU usage and Memory Usage, the program will ask for a password
+for your system, enter it then it will be executed.
+* For exiting from the live utilization window press _ctrl c_ or _click q_ multiple times.
 
 
 
