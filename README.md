@@ -8,7 +8,7 @@ tool), speedtest-cli (linux tool), inxi(linux tool).
   + For checking the version of python, run following command :- 
     > python3 -version
   + If it is not present then install it by using this command :- 
-    > sudo apt-get update
+    > sudo apt-get update <br/>
     > sudo apt-get install python3.6
   + For checking whether pip is present is the system or not, run the following
   command :- 
@@ -17,14 +17,14 @@ tool), speedtest-cli (linux tool), inxi(linux tool).
     > sudo apt install python3-pip
   + The rest of the above mentioned requirements can be installed by the following
   commands :- 
-    > sudo apt install inxi
-    > sudo apt install speedtest-cli
-    > sudo apt install lm-sensors
-    > pip install psutil
-    > sudo pip install psutil
-    > pip install python-time
-    > sudo pip install python-time
-    > pip install keyboard
+    > sudo apt install inxi <br/>
+    > sudo apt install speedtest-cli <br/>
+    > sudo apt install lm-sensors <br/>
+    > pip install psutil <br/>
+    > sudo pip install psutil <br/>
+    > pip install python-time <br/>
+    > sudo pip install python-time <br/>
+    > pip install keyboard <br/>
     > sudo pip install keyboard
 * For running of our program, install the zip file and unzip it.
 Open the folder containing the code in the terminal.
