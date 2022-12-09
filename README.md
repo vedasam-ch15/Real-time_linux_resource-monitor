@@ -1,7 +1,7 @@
 # Real-time_linux_resource-monitor
 ### A Real-time user interactive application for Linux has been created that will monitor CPU usage &amp; Memory utilization, I/O devices status, Disk usage, Process, Network monitoring &amp; Hardware information
 * The following repository consists of the code files in [here](resource_monitor) and the [final report](Report.pdf) which contains every detail of the project. Along with these, the final presetation for the evaluation has also been added
-* [resource_monitor](resource_monitor) contains the various folders each containing a set of functions and [this file](resource_monitor/resource_monitor.cpp) contains the main function which will be executed to give the output of the resource monitor.
+* [This folder](resource_monitor) contains the various folders each containing a set of functions and [this file](resource_monitor/resource_monitor.cpp) contains the main function which will be executed to give the output of the resource monitor.
 * For the execution of our program there are some prerequisites that are python3, pip,
 psutil (a python library ), lm-sensors(linux tool), keyboard(a python library ), inxi (linux
 tool), speedtest-cli (linux tool), inxi(linux tool).
